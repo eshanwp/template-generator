@@ -1,0 +1,26 @@
+{
+  "homepage": "",
+  "name": "@wpeshan/template-react-ts-2",
+  "version": "1.0.14",
+  "description": "Project generator with Node",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "template-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "picocolors": "^1.0.0"
+  }
+}
