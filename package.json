@@ -1,10 +1,13 @@
 {
-  "homepage": "",
-  "name": "@wpeshan/template-react-ts-2",
-  "version": "1.0.14",
+  "homepage": "https://github.com/eshanwp/template-generator",
+  "name": "@wpeshan/template-generator",
+  "version": "0.0.1",
   "description": "Project generator with Node",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "url": "https://github.com/eshanwp/template-generator"
+  },
   "bin": {
     "template-cli": "./index.js"
   },

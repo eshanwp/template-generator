@@ -10,15 +10,15 @@
   <a aria-label="NodeJS logo" href="https://nodejs.org/en" target="_blank">
     <img src="https://img.shields.io/badge/MADE%20WITH%20NODEJS-green?style=for-the-badge">
   </a>
-  <a aria-label="NPM version" href="https://www.npmjs.com/package/@wpeshan/template-react-ts-2" target="_blank">
-    <img alt="" src="https://img.shields.io/npm/v/%40wpeshan%2Ftemplate-react-ts-2?style=for-the-badge&labelColor=black&color=blue">
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/@wpeshan/template-generator" target="_blank">
+    <img alt="" src="https://img.shields.io/npm/v/%40wpeshan%2Ftemplate-generator?style=for-the-badge&labelColor=black&color=blue">
   </a>
   <a aria-label="License" href="https://github.com/eshanwp" target="_blank">
     <img alt="" src="https://img.shields.io/badge/MIT-green?style=for-the-badge&label=LICENSE&labelColor=black">
   </a>
-    <img alt="" src="https://img.shields.io/bundlephobia/min/%40wpeshan%2Ftemplate-react-ts-2?style=for-the-badge&color=orange">
-    <img alt="" src="https://img.shields.io/bundlephobia/minzip/%40wpeshan%2Ftemplate-react-ts-2?style=for-the-badge&color=purple">
-    <img alt="" src="https://img.shields.io/npm/unpacked-size/%40wpeshan%2Ftemplate-react-ts-2?style=for-the-badge&color=green">
+    <img alt="" src="https://img.shields.io/bundlephobia/min/%40wpeshan%2Ftemplate-generator?style=for-the-badge&color=orange">
+    <img alt="" src="https://img.shields.io/bundlephobia/minzip/%40wpeshan%2Ftemplate-generator?style=for-the-badge&color=purple">
+    <img alt="" src="https://img.shields.io/npm/unpacked-size/%40wpeshan%2Ftemplate-generator?style=for-the-badge&color=green">
 </p>
 
 ## Getting Started
@@ -37,7 +37,7 @@ generating the initial structure for you.
 You can install Template Generator via npm:
 
 ```bash
-npx @wpeshan/template-react-ts-2
+npx @wpeshan/template-generator
 ```
 
 ## Contributing
