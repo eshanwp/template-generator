@@ -11,7 +11,7 @@ import {exec} from 'child_process';
 const CURR_DIR = process.cwd();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const CHOICES = fs.readdirSync(`${__dirname}/templates`);
+const CHOICES = fs.readdirSync(`${__dirname}/template`);
 
 async function main() {
     console.clear();
@@ -51,7 +51,7 @@ async function main() {
         }
     );
 
-    const templatePath = `${__dirname}/templates/${project.type}`;
+    const templatePath = `${__dirname}/template/${project.type}`;
     const projectPath = `${CURR_DIR}/${project.name}`;
     fs.mkdirSync(`${CURR_DIR}/${project.name}`);
     createDirectoryContents(templatePath, project.name);
