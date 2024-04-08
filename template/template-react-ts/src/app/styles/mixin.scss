@@ -1,0 +1,54 @@
+//  Mixin
+//  -----------------------------
+//
+//  Table of Contents:
+//
+//   1. Flexbox Toolkit
+//   2. Position
+
+// 1. Flexbox Toolkit
+// ---------
+
+// This mixin sets an element to use flex layout with a column direction.
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// This mixin centers an element both vertically and horizontally.
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// This mixin centers an element both vertically and horizontally with a column direction.
+@mixin flex-center-column {
+  @include flex-center;
+  flex-direction: column;
+}
+
+// This mixin centers an element vertically.
+@mixin flex-center-vert {
+  display: flex;
+  align-items: center;
+}
+
+// This mixin centers an element horizontally.
+@mixin flex-center-horiz {
+  display: flex;
+  justify-content: center;
+}
+
+// 2. Position
+// ---------
+
+// Define a mixin named "position" with optional parameters.
+@mixin position($position: absolute, $top: null, $right: null, $bottom: null, $left: null, $z-index: initial) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  z-index: $z-index;
+}
