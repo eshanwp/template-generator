@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/eshanwp/template-generator",
   "name": "@wpeshan/template-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Template Generator is a Node.js library designed to expedite the creation of boilerplate code templates with ease and speed.",
   "main": "index.js",
   "type": "module",
