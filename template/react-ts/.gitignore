@@ -25,11 +25,6 @@ dist-ssr
 
 .idea
 
-# local env files
-#.env*.local
-.env.development
-.env.production
-
 #package lock
 package-lock.json
 
