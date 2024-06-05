@@ -5,6 +5,7 @@ import {reactRouterParameters, withRouter} from "storybook-addon-remix-react-rou
 
 const preview: Preview = {
     decorators: [withRouter],
+    tags: ['autodocs'],
     parameters: {
         actions: {argTypesRegex: "^on[A-Z].*"},
         controls: {
